@@ -1,0 +1,63 @@
+.hero {
+  background-color: #0d0f16;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero-card .card {
+  width: 240px;
+  z-index: 2;
+  border-radius: 15px;
+}
+
+.hero-card .glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(0,255,191,0.2) 0%, transparent 80%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.features h2 {
+  font-size: 2rem;
+}
+
+.features .border {
+  border-color: #333 !important;
+}
+
+.features .bg-dark {
+  background-color: #1a1c22 !important;
+}
+.app-preview img {
+  max-height: 500px;
+  object-fit: cover;
+  border: 1px solid #222;
+}
+.testimonials .bg-dark {
+  background-color: #1a1c22 !important;
+}
+
+.testimonials .border {
+  border-color: #2c2f36 !important;
+}
+.newsletter input::placeholder {
+  color: #aaa;
+}
+
+.newsletter input:focus {
+  box-shadow: none;
+  background-color: #111;
+}
+.footer a:hover {
+  color: #0f766e;
+  text-decoration: underline;
+}
